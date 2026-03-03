@@ -7,6 +7,8 @@ import Login from './pages/Login';
 import Menu from './pages/Menu';
 import Cart from './pages/Cart';
 import OrderConfirm from './pages/OrderConfirm';
+import MyOrders from './pages/MyOrders';
+import Account from './pages/Account';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
             <Route path="/menu" element={<Menu />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="/order-confirm" element={<OrderConfirm />} />
+            <Route path="/my-orders" element={<MyOrders />} />
+            <Route path="/account" element={<Account />} />
           </Routes>
         </CartProvider>
       </AuthProvider>

@@ -17,6 +17,12 @@ const Navbar = () => {
       <Link to="/" style={styles.logo}>🌙 Midnight Bites</Link>
       <div style={styles.links}>
         <Link to="/menu" style={styles.link}>Menu</Link>
+        {user && (
+          <>
+            <Link to="/my-orders" style={styles.link}>My Orders</Link>
+            <Link to="/account" style={styles.link}>Account</Link>
+          </>
+        )}
         <Link to="/cart" style={styles.cartBtn}>
           🛒 Cart {cart.length > 0 && <span style={styles.badge}>{cart.length}</span>}
         </Link>
