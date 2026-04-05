@@ -29,7 +29,7 @@ const Navbar = () => {
         {user ? (
           <button onClick={handleLogout} style={styles.logoutBtn}>Logout</button>
         ) : (
-          <Link to="/login" style={styles.loginBtn}>Login</Link>
+          <Link to="/login" style={styles.loginBtn}>Login1234</Link>
         )}
       </div>
     </nav>
