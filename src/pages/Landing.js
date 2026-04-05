@@ -7,7 +7,7 @@ const Landing = () => {
       <div style={styles.hero}>
         <div style={styles.badge}>🌙 Open 10:30 PM - 1:00 AM</div>
         <h1 style={styles.title}>
-          Hot Food Delivered to<br />
+          Hot HAHAHAHA Food Delivered to<br />
           <span style={styles.accent}>Your Hostel</span> at Night
         </h1>
         <p style={styles.subtitle}>
