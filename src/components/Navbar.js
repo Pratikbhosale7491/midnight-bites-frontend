@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <nav style={styles.nav}>
-      <Link to="/" style={styles.logo}>🌙 Midnight HAHAHAHA Bites</Link>
+      <Link to="/" style={styles.logo}>🌙 Midnight  Bites Develop </Link>
       <div style={styles.links}>
         <Link to="/menu" style={styles.link}>Menu</Link>
         {user && (
